@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="plaintext" original="ng2.template" source-language="en" target-language="EN-US">
+    <body>
+      <trans-unit approved="no" datatype="html" id="introductionHeader">
+        <source>Hello i18n!</source>
+        <target state="translated">Привет!</target>
+        <note annotates="general" from="description" priority="1">An introduction header for this sample</note>
+        <note from="meaning" priority="1">User welcome</note>
+      </trans-unit>
+      <trans-unit datatype="html" id="ba0cc104d3d69bf669f97b8d96a4c5d8d9559aa3">
+        <source>I don't output any element</source>
+        <target>Не могу вывести элементы</target>
+      </trans-unit>
+      <trans-unit datatype="html" id="df3cf8b55cb528cf8c00167e0b119bfb828538b5">
+        <source>
+I don't output any element either
+</source>
+        <target>Не могу вывести элементы *перевод*</target>
+        <note from="description" priority="1">optional description</note>
+        <note from="meaning" priority="1">optional meaning</note>
+      </trans-unit>
+      <trans-unit datatype="html" id="701174153757adf13e7c24a248c8a873ac9f5193">
+        <source>Angular logo</source>
+        <target>Логотип Ангулар</target>
+      </trans-unit>
+      <trans-unit datatype="html" id="6e22e74e8cbd3095560cfe08993c4fdfa3c50eb0">
+        <source/>
+        <target>{wolves, plural, =0 {ningún lobo} =1 {un lobo} =2 {dos lobos} other {una horda de lobos}}</target>
+      </trans-unit>
+      <trans-unit datatype="html" id="61cafedb85466ab789b3ae817bba1a545468ee1c">
+        <source>The object is<x id="ICU"/></source>
+        <target>Объект  <x id="ICU"/></target>
+      </trans-unit>
+      <trans-unit datatype="html" id="14c7055d67771a3b7b6888d282ac092896be06b6">
+        <source/>
+        <target>{gender, select, m {hombre} f {mujer}}</target>
+      </trans-unit>
+      <trans-unit datatype="html" id="2cf9a08c5b6e3612572a2a36dd46563013848382">
+        <source>Here we have: <x id="ICU"/></source>
+        <target>Здесь мы имеем: <x id="ICU"/></target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="import-feed">
+        <source>Import a Feed</source>
+        <target>Импортировать фид</target>
+      </trans-unit>
+	   <trans-unit datatype="html" id="import-feed-arch">
+        <source>Import a Feed Archive.</source>
+        <target>Импортировать архив фида</target>
+      </trans-unit>
+	   <trans-unit datatype="html" id="type">
+        <source>Type</source>
+        <target>Тип</target>
+      </trans-unit>
+	  	   <trans-unit datatype="html" id="file-type">
+        <source>File type</source>
+        <target>Тип файла</target>
+      </trans-unit>
+	  	   <trans-unit datatype="html" id="descrip">
+        <source>Description</source>
+        <target>Описание</target>
+      </trans-unit>
+	  	   <trans-unit datatype="html" id="busin-propert">
+        <source>Business Properties</source>
+        <target>Бизнес Свойства</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="provid-add">
+        <source>Provide additional business metadata</source>
+        <target>Предоставление дополнительных бизнес-метаданных</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="data-owner">
+        <source>Data Owner</source>
+        <target>Владелец данных</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="Tags">
+        <source>Tags</source>
+        <target>Тэги</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="HSG">
+        <source>Hadoop Security Groups</source>
+        <target>Группы безопасности Hadoop</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="source">
+        <source>Source</source>
+        <target>Источник</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="SRP">
+        <source>Source Retention Period</source>
+        <target>Период Хранения Источника</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="*">
+        <source>*****</source>
+        <target>*****</target>
+      </trans-unit>
+	  <trans-unit datatype="html" id="ChoseFeedInput">
+        <source>Choose a Feed Input</source>
+        <target>Вход для подачи</target>
+      </trans-unit>
+	  
+	  
+      <trans-unit datatype="html" id="db1b921b55301ce3957e382090729562002da036">
+        <source/>
+        <target>
+          {count, plural,
+            =0 { nadie }
+            =1 {{gender, select, m {un hombre} f {una mujer}}}
+            other {{{heroes.length}} {gender, select, m {hombres} f {mujeres}}}
+          }
+        </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
